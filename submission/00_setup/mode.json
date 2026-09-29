@@ -1,0 +1,22 @@
+{
+  "members": [
+    "dai",
+    "hung",
+    "tuananh"
+  ],
+  "assignments": {
+    "dai": "B3-edge",
+    "hung": "B3-dense",
+    "tuananh": "B4-center"
+  },
+  "self": "dai",
+  "slice": "B3-edge",
+  "degrade": [],
+  "current_slice": "B3-edge",
+  "support_prefill": false,
+  "support_slice": "",
+  "prefill_box_ids": [
+    "adasind_123090.jpg:1",
+    "adasind_123090.jpg:2"
+  ]
+}

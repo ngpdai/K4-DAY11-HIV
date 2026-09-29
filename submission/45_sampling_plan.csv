@@ -1,9 +1,9 @@
-camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+camera,condition,frame_count,description,rationale
+front,normal,30,"Normal driving/parking conditions, clear daylight",Base representation for front movement and obstacle detection in clear vision.
+front,hard,20,"Low light, glares, edge distortion, partial occlusion at seams","Crucial for evaluating detection robustly against lens flare, glare, and seam overlaps."
+rear,normal,30,Normal rear view parking lines and approaching vehicles,Baseline for standard reversing maneuvers and trailing object detection.
+rear,hard,20,"Rain/dirt on lens, low light, close range parking obstacles",Ensures safety coverage when lens is contaminated or lighting conditions drop.
+left,normal,30,"Clear side views, standard lane marks and curb lines","Standard coverage for lateral clearance, parking line alignment, and curbs."
+left,hard,20,"High distortion rim area, shadow/glare, tight side clearance",Focuses on fisheye edge distortion where severe distortion causes boundary misalignments.
+right,normal,30,"Clear right side view, standard parking slot boundaries",Standard coverage for right-side parking slot demarcation and static obstacles.
+right,hard,20,"High distortion rim area, dark shadow, seam overlaps with front/rear",Targets edge seam overlap regions with front/rear cameras to validate stitching stability.

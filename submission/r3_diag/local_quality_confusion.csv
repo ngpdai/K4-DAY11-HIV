@@ -1,0 +1,8 @@
+reference\export,Bike,Bus,Car,Pedestrian,ThreeWheeler,Truck,<missing>
+Bike,1,0,0,0,0,0,3
+Bus,0,0,0,0,0,0,0
+Car,0,0,3,0,0,0,0
+Pedestrian,0,0,0,2,0,0,1
+ThreeWheeler,0,0,0,0,2,0,1
+Truck,0,1,1,0,0,1,1
+<extra>,2,0,2,2,0,0,0

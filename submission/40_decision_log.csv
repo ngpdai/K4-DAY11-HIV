@@ -1,1 +1,3 @@
-id,date,question,decision,rationale,status
+round,slice,frame,object_ref,decision,rationale,owner
+p5_rework,B3-edge,adasind_199770.jpg,R4,add_box,Added missing car box near fisheye edge,human
+p5_rework,B3-edge,adasind_128310.jpg,L3,reclass,Updated classification to car,human
